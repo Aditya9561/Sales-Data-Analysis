@@ -37,6 +37,21 @@ Sales_Data_Analysis/
 - Highest-sales month: May 2025
 - Most-used payment method: Cash, with 110 orders
 
+## Visualizations
+
+### 1. Total Sales by Region
+![Sales by Region](Dashboard/sales_by_region.png)
+
+### 2. Total Sales by Product
+![Sales by Product](Dashboard/sales_by_product.png)
+
+### 3. Monthly Sales Trend
+![Monthly Sales Trend](Dashboard/monthly_sales_trend.png)
+
+### 4. Orders by Payment Mode
+![Payment Mode Distribution](Dashboard/payment_mode_distribution.png)
+
+
 ## Current Status
 Python and SQL analyses have been completed.
 The Power BI dashboard is planned for a future stage.
