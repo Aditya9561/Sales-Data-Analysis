@@ -1,0 +1,93 @@
+Project overview
+- Dataset size: 500 sales records.
+- Total sales: ₹1,26,40,198.
+- Total quantity sold: 1,532.
+- Average sales per order: ₹25,280.40.
+1. Regional analysis
+- Highest sales region: South — ₹30,32,680.
+- Second-highest: West — ₹26,37,937.
+- Third-highest: Central — ₹24,23,306.50.
+- Fourth-highest: East — ₹24,01,763.
+- Lowest sales region: North — ₹21,44,511.50.
+2. Product analysis
+- Highest-revenue product: Laptop — ₹34,70,500.
+- Highest quantity sold: Headphones — 101 units.
+- Lowest-revenue product: Notebook — ₹8,073.
+3. Discount analysis
+- Highest average sales per order: 0% discount — ₹26,046.39.
+- Lowest average sales per order: 15% discount — ₹23,684.63.
+- Average quantity sold per order increases as the discount increases.
+4. Monthly analysis
+- Highest-sales month: May.
+5. Payment analysis
+- Most-used payment mode: CASH.
+SQL Analysis - Top 10 Customers
+- Identified the top 10 customers based on total spending.
+- Calculated the total number of orders placed by each customers.
+- Calculated the total spending for each customer.
+- Sorted customers by total spending in descending order.
+Customer_61	5	533225
+Customer_94	4	388000
+Customer_62	6	322200
+Customer_73	4	321245
+Customer_138	9	318902.5
+Customer_102	8	302100
+Customer_136	3	288190
+Customer_140	6	264830
+Customer_45	8	239660
+Customer_117	3	234000
+SQL Analysis - Sales by Product
+- Analysed total quantity sold and total revenue for each products.
+- Identified Laptop as the product generating the highest revenue.
+- Sorted products by total sales to identify the best-performing products.
+Laptop		67	3470500
+Smartphone	88	2377200
+Microwave	80	851400
+Desk		68	783600
+Monitor		54	694400
+Vacuum Cleaner	77	681625
+Printer		61	678600
+Air Cooler	79	649825
+Office Chair	76	609025
+Bookshelf	64	395525
+Mixer		79	308280
+Shoes		98	262220
+Headphones	101	242500
+Jacket		70	211840
+Jeans		92	155610
+Table Lamp	85	144630
+T-Shirt		95	71520
+Stapler		88	29050
+Pen Set		62	14775
+Notebook	48	8073
+SQL Analysis - Monthly Sales
+- Analysed total sales revenue and order count for each month.
+- Identified May 2025 as the month with the highest total sales.
+- Sorted monthly sales in descending order to identify the best-performing month.
+2025-05		1447387		38
+2025-12		1391492.5	53
+2025-02		1319880		49
+2025-08		1318462.5	55
+2025-07		1267746		46
+2025-03		1020028.5	36
+2025-06		990035		44
+2025-11		920243		38
+2025-01		905087.5	35
+2025-09		866332.5	36
+2025-10		614162		45
+2025-04		579341.5	25
+SQL Analysis - Payment Mode
+- Analysed order counts and total sales for each payment method.
+- Identified Cash as the most frequently used payment mode in the dataset.
+- Compared payment methods based on the number of orders and revenue generated.
+Cash		110	2794024.5
+UPI		104	3015491.5
+Credit Card	99	2163369
+Net Banking	98	2793252
+Debit Card	89	1874061
+SQL Analysis - Discount Impact
+- Analysed orders across four discount levels: 0%, 5%, 10%, and 15%.
+- Compared average sales, average quantity, and order counts for each discount level.
+- Found that the 0% discount level had the highest average sales per order.
+- Found that 15% discount level had the lowest average sales per order.
+- Observed that higher discounts were associted with higher average quantities per order in the dataset.
